@@ -16,6 +16,8 @@
 body {
     font-size: 1.6rem;
     padding: 2.6rem 6rem 4.7rem;
+    background: rgb(251,233,142);
+    background: linear-gradient(180deg, rgba(251,233,142,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .page {
