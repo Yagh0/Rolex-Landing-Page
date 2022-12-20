@@ -88,6 +88,10 @@ footer {
     color: #333333;
 }
 
+footer span {
+    color: #1C5E3C;
+}
+
 .hidden {
     display: none;
 }
