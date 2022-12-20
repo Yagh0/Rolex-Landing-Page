@@ -27,7 +27,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
 }
 
 header ul {
@@ -74,45 +74,7 @@ header .headerButtons {
 main {
     display: flex;
     flex-direction: column;
-    position: relative;
-
-    margin-bottom: 10rem;
-}
-
-main h1 {
-    text-transform: uppercase;
-    font-family: var(--ff-roboto);
-    font-size: 35rem;
-
-    letter-spacing: 24px;
-
-    background: linear-gradient(180deg, #242424 0%, #5C5C5C 49.48%, #131313 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-main .img-wrapper {
-    position: absolute;
-    left: 220px;
-    top: -50px;
-}
-
-main img {
-    width: fit-content;
-    height: 550px;
-}
-
-main h2 {
-    font-family: var(--ff-raleway);
-    text-transform: uppercase;
-    text-align: right;
-    font-style: normal;
-    font-size: 44px;
-
-    letter-spacing: 0.5px;
-
-    color: #505050;
-    margin-top: -6rem;
+    justify-content: center;
 }
 
 footer {
